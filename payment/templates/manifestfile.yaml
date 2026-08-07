@@ -48,15 +48,15 @@ spec:
             httpGet:
               port: payment-port
             failureThreshold: 2
-            initialDelaySeconds: 50
-            periodSeconds: 50
+            initialDelaySeconds: 70
+            periodSeconds: 70
             timeoutSeconds: 5
           livenessProbe:
             httpGet:
               port: payment-port
             failureThreshold: 2
-            initialDelaySeconds: 50
-            periodSeconds: 50
+            initialDelaySeconds: 70
+            periodSeconds: 70
             timeoutSeconds: 5
           envFrom:
             - configMapRef:
