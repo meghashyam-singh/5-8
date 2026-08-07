@@ -1,0 +1,5 @@
+apiVersion: v2
+name: rabbitmq
+version: 4.0.0
+appVersion: 4.4.4
+description: "rabbitmq-helm-deployment"
