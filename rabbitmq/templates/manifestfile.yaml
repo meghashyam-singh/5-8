@@ -35,7 +35,7 @@ spec:
       project: roboshop
       tier: db
       component: rabbitmq
-  templates:
+  template:
     metadata:
       labels:
         project: roboshop
