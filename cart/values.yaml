@@ -1,4 +1,4 @@
-statefulset:
+deployment:
   image: meghashyam792/roboshop
   imagetag: cart
 service:
