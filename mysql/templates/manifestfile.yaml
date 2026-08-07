@@ -119,7 +119,7 @@ metadata:
   name: mysql-headless-service
   namespace: roboshop
 spec:
-  clusterIP: none
+  clusterIP: None
   selector:
     project: roboshop
     tier: db
