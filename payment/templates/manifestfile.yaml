@@ -16,7 +16,7 @@ data:
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: apyment
+  name: payment
   namespace: roboshop
   labels:
     project: roboshop
