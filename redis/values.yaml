@@ -1,5 +1,5 @@
 statefulset:
   image: meghashyam792/roboshop
-  imagetag: mongodb
+  imagetag: redis
 service:
   type: ClusterIP
