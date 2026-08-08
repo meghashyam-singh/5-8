@@ -1,0 +1,20 @@
+apiVersion: v1
+data:
+  mapRoles: |
+    - rolearn: arn:aws:iam::257394454651:role/eksctl-roboshop-cluster-nodegroup--NodeInstanceRole-dUpk0eTkFVOo
+      groups:
+      - system:bootstrappers
+      - system:nodes
+      username: system:node:{{EC2PrivateDNSName}}
+  mapUsers: |
+    - userarn: arn:aws:iam::257394454651:user/nishi
+      username: nishi
+      groups:
+      - system:masters
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2026-08-07T15:58:36Z"
+  name: aws-auth
+  namespace: kube-system
+  resourceVersion: "1272"
+  uid: 93152856-e863-464c-86d1-973fb7b82c73
